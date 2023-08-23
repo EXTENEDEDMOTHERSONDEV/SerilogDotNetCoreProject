@@ -7,7 +7,7 @@ namespace XUnitTestProject
         [Fact]
         public void Test1()
         {
-             string str = "this is string";
+             string str = "this is string not";
           Console.Write (     SerilogDemo.LogClass.GetMessage());
             Assert.Equal(str, str);
             Assert.True(true);
