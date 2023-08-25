@@ -12,5 +12,6 @@ namespace XUnitTestProject
             Assert.Equal(str, str);
             Assert.True(true);
         }
+
     }
 }
