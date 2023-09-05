@@ -13,7 +13,7 @@ try
 {
     var builder = WebApplication.CreateBuilder(args);
 
-    // Add services to the container.
+    // Add services to the container. 
     builder.Services.AddControllersWithViews();
     builder.Host.UseSerilog((context, configuration) => configuration.ReadFrom.Configuration(context.Configuration));
    
