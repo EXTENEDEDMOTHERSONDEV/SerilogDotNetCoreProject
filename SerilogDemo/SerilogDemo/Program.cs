@@ -10,7 +10,7 @@ using NLog;
 var logger = NLog.LogManager.Setup().LoadConfigurationFromAppSettings().GetCurrentClassLogger();
 try
 
-{
+{//
     var builder = WebApplication.CreateBuilder(args);
 
     // Add services to the container. 
